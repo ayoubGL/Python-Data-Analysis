@@ -7,3 +7,4 @@ sc.master
 sqlc = SQLContext(sc)
 
 twts_sql_df_01 = sqlc.read.json("jSON.json")
+twts_sql_df_01.show()
